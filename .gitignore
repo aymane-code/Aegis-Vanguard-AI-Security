@@ -1,0 +1,26 @@
+# Environnements
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Modèles et checkpoints (trop lourds pour GitHub)
+*.safetensors
+*.bin
+*.pt
+*.pth
+vulnerability_model*/
+codebert_vuln_model/
+model_output/
+logs*/
+
+# Datasets
+data/
+Defectors_Tokenized_Final/
+*.arrow
+*.json.gz
+diversevul_*.json
+*.zip
+
+.env
